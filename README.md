@@ -3,7 +3,7 @@ Command line interface for the deep-extend npm package.
 
 ## Installation
 ```
-sudo npm install -g deep-extend-cli
+npm install -g deep-extend-cli
 ```
 
 ## Usage
