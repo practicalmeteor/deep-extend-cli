@@ -1,5 +1,5 @@
 ## Overview
-Command line interface for the deep-extend npm package.
+Command line interface for the [deep-extend](https://www.npmjs.org/package/deep-extend) npm package.
 
 ## Installation
 ```
