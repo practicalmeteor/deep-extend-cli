@@ -15,4 +15,4 @@ var obj2 = require(path.join(process.cwd(), process.argv[3]));
 
 deepExtend(obj1, obj2);
 
-console.log(obj1);
+console.log(JSON.stringify(obj1, null, 4));
