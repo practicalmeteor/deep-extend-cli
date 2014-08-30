@@ -1,0 +1,40 @@
+{
+  "name": "deep-extend-cli",
+  "version": "0.1.0",
+  "description": "Command line interface for the deep-extend npm package",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deep-extend": "bin/deep-extend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spacejamio/deep-extend-cli.git"
+  },
+  "keywords": [
+    "deep-extend",
+    "cli",
+    "json",
+    "deep",
+    "extend"
+  ],
+  "author": {
+    "name": "SpaceJam.io (LaVaina Inc.)",
+    "url": "http://spacejam.io/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/spacejamio/deep-extend-cli/blob/master/LICENSE.txt"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/spacejamio/deep-extend-cli/issues"
+  },
+  "homepage": "https://github.com/spacejamio/deep-extend-cli",
+  "dependencies": {
+    "deep-extend": "^0.2.11"
+  }
+}

@@ -1,4 +1,19 @@
-deep-extend-cli
-===============
+## Overview
+Command line interface for the deep-extend npm package.
 
-Command line interface for the deep-extend npm package
+## Installation
+```
+sudo npm install -g deep-extend-cli
+```
+
+## Usage
+```
+deep-extend json-file1 json-file2
+```
+
+Ouputs extended json-file1 to standard output.
+
+## License
+[MIT](LICENSE.txt)
+
+Enjoy :)
