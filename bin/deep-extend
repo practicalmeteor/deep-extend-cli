@@ -2,8 +2,6 @@
 
 var deepExtend = require('deep-extend');
 
-console.log(process.argv);
-
 if (process.argv.length != 4) {
 	console.error("Error: Please provide exactly 2 json files as command line arguments.");
 	process.exit(1);
