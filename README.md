@@ -11,7 +11,7 @@ sudo npm install -g deep-extend-cli
 deep-extend json-file1 json-file2
 ```
 
-Ouputs extended json-file1 to standard output.
+Prints extended json-file1 to standard output.
 
 ## License
 [MIT](LICENSE.txt)
