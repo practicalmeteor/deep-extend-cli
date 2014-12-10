@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/practicalmeteor/deep-extend-cli.svg?branch=master)](https://travis-ci.org/practicalmeteor/deep-extend-cli)
+
 ## Overview
 Command line interface for the [deep-extend](https://www.npmjs.org/package/deep-extend) npm package.
 
