@@ -10,8 +10,8 @@ if (process.argv.length != 4) {
 var path = require('path');
 
 // First 2 argvs are node and this file
-var obj1 = require(path.join(process.cwd(), process.argv[2]));
-var obj2 = require(path.join(process.cwd(), process.argv[3]));
+var obj1 = require(path.resolve(process.argv[2]));
+var obj2 = require(path.resolve(process.argv[3]));
 
 deepExtend(obj1, obj2);
 
