@@ -10,10 +10,10 @@ npm install -g deep-extend-cli
 
 ## Usage
 ```
-deep-extend file1.json file2.json
+deep-extend file1.json file2.json [file3.json...]
 ```
 
-Prints extended file1.json to standard output.
+Merges / extends all files provided as command line arguments, ignoring files that don't exist. At least one file must exist.
 
 ## License
 [MIT](LICENSE.txt)
